@@ -21,13 +21,24 @@ body{
 .menu-navegacion > ul{
     list-style-type: none;
     display: flex;
+    position: relative;
 }
 
 .menu-navegacion > ul > li{
     border: solid;
     border-color: #ECEAE4;
-    padding: 30px;
+    padding: 20px;
     background-color: #97C1A9;
+    display: flex;
+    text-align: center;
+}
+
+.menu-navegacion>ul>li:hover{
+    
+    color: grey;
+    background-color: #CCE2CB;
+    padding: 25px;
+    transition: padding 0.25s linear, color 0.25s linear;
 }
 
 .logo{
@@ -36,6 +47,9 @@ body{
 
 .logo img{
     width: 120px;
+}
+.logo img:hover{
+    width: 150px;
 }
 
 /*Secció 1*/
@@ -58,7 +72,9 @@ body{
 .barra-lateral >ul >li{
     margin: 70px 30px;
     margin-bottom: solid;
-    
+}
+.barra-lateral>ul>li:hover{
+    text-decoration: underline;
 }
 
 /*Secció 2*/
