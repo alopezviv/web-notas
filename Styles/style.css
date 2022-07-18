@@ -1,0 +1,66 @@
+html,
+body{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+/*Header*/
+
+.header{
+    background: #FCB9AA;
+    color: white;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-navegacion{
+    width: 900px;
+}
+
+.menu-navegacion > ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.menu-navegacion > ul > li{
+    border: solid;
+    border-color: #ECEAE4;
+    padding: 30px;
+    background-color: #97C1A9;
+}
+
+.logo{
+    width: 270px;
+}
+
+.logo img{
+    width: 120px;
+}
+
+/*Secció 1*/
+
+.barra-lateral{
+    color: black;
+    width: 400px;
+    background: #CCE2CB;
+    position: fixed;
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.barra-lateral > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.barra-lateral >ul >li{
+    margin: 70px 30px;
+    margin-bottom: solid;
+    
+}
+
+/*Secció 2*/
+
+
